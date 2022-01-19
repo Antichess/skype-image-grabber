@@ -1,0 +1,1 @@
+Make an images subfolder where all the images will download.
