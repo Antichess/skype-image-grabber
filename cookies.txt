@@ -1,0 +1,3 @@
+put your cookies token here. it should be the skypetoken_asm = "COOKIE HERE".
+
+just paste it in this text file and leave it. nothing else. do not worry about the newline, it will be removed on it's own.
