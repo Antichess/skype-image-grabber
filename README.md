@@ -16,11 +16,11 @@ In order to run the scripts and load the data, you must have a version of **Pyth
 *Note: This script was written in Python 3.7.*
 
 ### Requests
-[Python requests](https://pypi.org/project/requests/) are required in order to request from the Skype API server. If you don't have Skype API, open up `cmd` and put the following command to install Python requests:
+[Python requests](https://pypi.org/project/requests/) are required in order to request from the Skype API server. If you don't have Python requests, open up `cmd` and put the following command to install Python requests:
 ```
 $ python -m pip install requests
 ```
-Make sure you are in a version that is at least **Python 3.6** in order for requests to work.
+Make sure you are in a version that is at least **Python 3.6** in order for requests to work. If you don't know if you have it or not, you can run the command regardless.
 
 # Usage
 ### Getting your Skype data
