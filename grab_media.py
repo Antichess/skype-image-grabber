@@ -7,10 +7,14 @@ from PIL import Image
 import glob
 
 links = []
-f = open("cookies.txt","r")
-arr = f.readlines()
-c = re.search(r'skypetoken_asm=(.*?)\n', arr[-1]).group(1)
-f.close()
+c = ""
+try:
+    f = open("cookies.txt","r")
+    arr = f.readlines()
+    c = re.search(r'skypetoken_asm=(.*?)\n', arr[-1]).group(1)
+    f.close()
+except:
+    pass
 print(c)
 
 with open("messages.json",encoding="utf8") as f:
@@ -45,7 +49,7 @@ with open("messages.json",encoding="utf8") as f:
                                 rgb_im.save(filepath.replace("jfif", "jpg"))
                             os.remove(filepath)
                         else:
-                            print(response.status_code)
+                            print(f"{response.status_code} {url}")
 
                 except:
                     pass
