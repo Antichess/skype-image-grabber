@@ -3,6 +3,8 @@ import datetime
 import os
 import re
 import requests
+from PIL import Image
+import glob
 
 links = []
 f = open("cookies.txt","r")
@@ -38,11 +40,15 @@ with open("messages.json",encoding="utf8") as f:
                         if response.status_code == 200:
                             with open(filepath, 'wb') as write_file:
                                 write_file.write(response.content)
+                                im = Image.open(filepath)
+                                rgb_im = im.convert('RGB')
+                                rgb_im.save(filepath.replace("jfif", "jpg"))
+                            os.remove(filepath)
                         else:
                             print(response.status_code)
 
-                except Exception as e: print(e)
-                    
+                except:
+                    pass
                     
 
 with open("links.txt", "w") as f:
