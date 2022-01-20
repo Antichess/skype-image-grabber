@@ -45,3 +45,11 @@ In the cookies.txt folder, you need to get a session of your cookies from an api
 After copying and accessing a link, go ahead and inspect the page. In the network tab, reload your network activity and you should see `imgpsh_fullsize_anim`. Right click that, and copy `Copy request headers`. If you are a Chrome user, an image is provided below.
 
 ![image](https://raw.githubusercontent.com/Antichess/skype-image-grabber/main/images/network_inspect.png)
+
+You now have your cookies data! Paste that in the `cookies.txt` file and do not edit it. It will automatically do everything needed for you.
+
+### Running the script
+
+After completing all the steps above, you may now run and script and watch the images pile in! It downloads as a `.jfif` file, and will automatically convert to a `.jpg` file. Most downloads should be fairly quick.
+
+If you have any questions about the script, feel free to reach out to me.
