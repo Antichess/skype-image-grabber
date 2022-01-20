@@ -40,6 +40,8 @@ Organize a new folder that is like the repository shown above.
     ⌞     grab_media.py
     ⌞     messages.json
 ```
-In the cookies.txt folder, you need to get a session of your cookies from an api.asm.skype.com request. Go ahead and run the script **with the messages.json** in the folder. You do not need to worry about the cookies.txt file yet, if you have not put it in there. Go ahead and copy any link from the shell, and paste it in your browser. If you have logged in correctly in the past, you should not have to worry about signing in. 
-    
-    
+In the cookies.txt folder, you need to get a session of your cookies from an api.asm.skype.com request. Go ahead and run the script **with the messages.json** in the folder. You do not need to worry about the cookies.txt file yet, if you have not put it in there. Go ahead and copy any link starting with **api.asm.skype.com** from the shell, and paste it in your browser. If you have logged in correctly in the past, you should not have to worry about signing in. 
+
+After copying and accessing a link, go ahead and inspect the page. In the network tab, reload your network activity and you should see `imgpsh_fullsize_anim`. Right click that, and copy `Copy request headers`. If you are a Chrome user, an image is provided below.
+
+![image](https://raw.githubusercontent.com/Antichess/skype-image-grabber/main/images/network_inspect.png)
