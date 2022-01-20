@@ -18,9 +18,15 @@ In order to run the scripts and load the data, you must have a version of **Pyth
 ### Requests
 [Python requests](https://pypi.org/project/requests/) are required in order to request from the Skype API server. If you don't have Python requests, open up `cmd` and put the following command to install Python requests:
 ```
-$ python -m pip install requests
+$ pip install requests
 ```
 Make sure you are in a version that is at least **Python 3.6** in order for requests to work. If you don't know if you have it or not, you can run the command regardless.
+
+### Pillow
+[Pillow](https://pypi.org/project/Pillow/2.2.2/) is needed to change the images from `.jfif` to `.jpg`. You can download it with this in `cmd`.
+```
+$ pip install Pillow
+```
 
 # Usage
 ### Getting your Skype data
