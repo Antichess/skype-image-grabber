@@ -41,7 +41,7 @@ If you want to understand more of your data, you may use the [Skype Parser](http
 Organize a new folder that is like the repository shown above.
 ```
 📁    skype-image-grabber
-    📁    Images    
+    📁    images    
     ⌞     cookies.txt    
     ⌞     grab_media.py
     ⌞     messages.json
