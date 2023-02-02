@@ -38,7 +38,7 @@ If you want to understand more of your data, you may use the [Skype Parser](http
 
 ### Organizing the folder
 
-Organize a new folder that is like the repository shown above.
+Organize a new folder that is like the repository shown above. Cloning this repository will have everything automatically set up as is.
 ```
 📁    skype-image-grabber
     📁    images    
